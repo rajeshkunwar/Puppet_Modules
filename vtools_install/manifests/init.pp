@@ -3,7 +3,6 @@ class vtools_install {
 	if $kernel == "Linux" {
 	   
 	   include vtools_install::linux
-
 	}
 
 	elsif $kernel == windows {
