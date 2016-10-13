@@ -1,0 +1,13 @@
+yes
+/usr/bin
+/etc/rc.d
+/etc/rc.d/init.d
+/usr/sbin
+/usr/lib/vmware-tools
+/usr/share/doc/vmware-tools
+yes
+yes
+no
+no
+no
+

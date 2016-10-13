@@ -1,5 +1,4 @@
 class vtools_install::windows 
-
 	($file = "VMware-tools-10.0.9-3917699-x86_64.exe") {
 	
 	file { "VmwareTools":
@@ -7,7 +6,6 @@ class vtools_install::windows
            source => "puppet:///modules/vtools_install/$file",
            ensure => present,
 	   source_permissions => "ignore",
-
         }
 	
 	exec { "vmwaretools":
